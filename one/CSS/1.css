@@ -1,0 +1,32 @@
+    <style>
+        
+        .carousel{
+            display:none;
+        }
+    .next{
+        right: 0;
+    }
+    .prev{
+        left:0;
+    }
+    .next .prev{
+        cursor: pointer;
+        color: yellow;
+        border: 3px;
+        transition: 0.6s ;
+        position: absolute;
+        font-size: 18px;
+        top: 50%;
+        margin-top: -20px;
+        font-weight: bold;
+        padding: 16px;
+       
+    }
+    .next:hover , .prev:hover{
+        background-color: yellow;
+    }
+    .carousel-wrapper{
+        position: relative;
+        margin: auto;
+    }
+    </style>

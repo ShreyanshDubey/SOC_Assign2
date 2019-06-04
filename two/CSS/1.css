@@ -1,0 +1,15 @@
+<style>
+        th{
+            background-color:green;
+            height:50px;
+            color:white;
+        }
+        td{
+            background-color:purple;
+            height= 20px;
+            color:white;
+        }
+        table{
+            width:100%;
+        }
+        </style>
